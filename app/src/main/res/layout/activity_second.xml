@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/second">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Data"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginStart="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama:"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginStart="18dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Nama"
+            android:inputType="text"
+            android:padding="17dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Umur:"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:layout_marginStart="18dp"/>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Umur"
+            android:inputType="number"
+            android:padding="17dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin:"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:layout_marginStart="18dp"/>
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_marginStart="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki" />
+
+            <RadioButton
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/woman" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

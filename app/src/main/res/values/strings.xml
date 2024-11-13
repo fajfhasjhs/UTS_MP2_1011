@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">uts_mp2_1011</string>
+    <string name="title">My Data 1011</string>
+    <string name="start">Mulai</string>
+    <string name="man">Laki - laki</string>
+    <string name="woman">Perempuan</string>
+    <string name="error">Tidak valid</string>
+</resources>
