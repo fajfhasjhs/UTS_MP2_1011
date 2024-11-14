@@ -99,14 +99,5 @@
             android:textSize="18sp"
             android:backgroundTint="@color/colorAccent"/>
 
-
-
     </LinearLayout>
-
-
-
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
