@@ -117,7 +117,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kembali Ke Halaman Utama"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorAccent"/>
 
 
     </LinearLayout>
